@@ -1,0 +1,61 @@
+#div1{
+    background-color:blueviolet ;
+    width: 50%;
+    float: left;
+}
+#div2{
+    background-color: white;
+    width: 50%;
+    float: right;
+}
+#logo{
+  width: 130px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 60px;
+  line-height: 0.1px;
+}
+
+#header{
+  color: white;
+  font-family: 'Yeon Sung';
+  font-size: 45px;
+  letter-spacing: 10px;
+  margin-top: 80px;
+  line-height: 0.1px;
+}
+#mac_buttons{
+    margin-top: 30px;
+    border-radius: 40px;
+    float: left;
+    line-height: 0.1px;
+}
+#tagline{
+    color: white;
+    font-family: 'Yeon Sung';
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 80px;
+    line-height: 0.1px;
+}
+#website{
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+
+}
+#sign_in{
+    font-size: 60px;
+}
+#user_name{
+    width: 300px;
+    height: 35px;
+}
+#get_started{
+     background-color: blueviolet;
+     block-size: 60px;
+     color: white;
+     outline: 0cm;
+     width: 100px;
+     
+}

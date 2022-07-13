@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kwitter</title>
+        <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+        <script src="kwitter_room.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    </head>
+    <body>
+        <center>
+        <div id="background">
+          <br>
+          <img id="logOut" src="logout-removebg-preview.png" onclick="logout()">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <img class="img-responsive" id="logo" src="eed52a7bc5d935bdfd96359e34a99176.jpg">
+          <br>
+          <br>
+          <br>
+          <div id="username"></div>
+          <br>
+          <br>
+          <h1 id="heading">Add Room</h1>
+          <br>
+          <input type="text" id="add_room" placeholder="Enter room name">
+          <br>
+          <br>
+          <br>
+          <button type="button" id="button_addroom" onclick="addRoom()">Add room</button>
+          <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>
+        <div id="trendingRooms">
+            <br>
+            <br>
+            <h2 id="trending_rooms">#TRENDINGROOMS</h2>
+            <br>
+            <br>
+            <div id="trending_rooms">
+        </div>
+        
+    </center>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+#background{
+    background-color: blueviolet;
+    float: left;
+    width: 50%;
+}
+#logo{
+    width: 130px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 60px;
+    line-height: 0.1px;
+  }
+ 
+#trendingRooms{
+    float: right;
+    width: 50%;
+  }
+#add_room{
+    width: 250px;
+    height: 30px;
+}
+
+#heading{
+    color: white;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: .5px;
+    margin-top: 80px;
+    line-height: 0.1px;
+}
+#note{
+    color: white;
+    letter-spacing: .5px;
+    margin-top: 80px
+}
+
+#button_addroom{
+    background-color: pink ;
+     block-size: 60px;
+     color: white;
+     outline: 0cm;
+     width: 100px;
+     color: black;
+}
+#logOut{
+    width: 70px;
+    height: 68px;
+    margin-top: 50px;
+    border-radius: 60px;
+    line-height: 0.1px;
+    float: left;
+    margin-right: 20px;
+    left: 20px;
+}
